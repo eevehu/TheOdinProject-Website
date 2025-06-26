@@ -60,6 +60,7 @@
     background-color: #3882F8;
     border: 0px;
     border-radius: 8px;
+    margin-top: 12px;
   
     display: flex;
     justify-content: center;
@@ -87,18 +88,17 @@
     padding: 16px;
     display: flex;
     color: #1F2937;
-    background-color: #e5e7eb;
 }
 .content {
     height: 50vh;
     display: flex;
     flex-wrap: wrap;
-    background-color: #e5e7eb;
     justify-content: center;
 }
 
 .testimonials > * {
-    width: 230px;
+    width: 240px;
+    text-align: center;
     color: #1F2937;
 }
 
@@ -116,4 +116,31 @@
     border: 4px solid #3882F8;
     border-radius: 32px;
     column-width: 10px;
+}
+
+.quote-container {
+    height: 50vh;
+    background-color: #e5e7eb;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.author {
+    padding: 8px;
+    align-self: flex-end;
+}
+
+.quote p{
+    width: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
