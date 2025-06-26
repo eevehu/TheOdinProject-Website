@@ -9,12 +9,12 @@
 }
 
 .header-container {
+    flex-direction: column;
     flex-wrap: wrap;
     height: 50vh;
     background: #1F2937;
 
     display: flex;
-    align-items: cen-;
 }
 .header-text {
     width: 100%;
@@ -39,8 +39,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-
-    padding: 16px 256px; 
+    padding: 6rem 0px 0px 256px; 
+    height: 0px;
 }
 .hero-header {
     width: 100%;
@@ -63,4 +63,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hero-image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1000px;
+    color: red;
+}
+.hero-container {
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
