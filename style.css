@@ -97,7 +97,7 @@
 }
 
 .testimonials > * {
-    width: 240px;
+    width: 200px;
     text-align: center;
     color: #1F2937;
 }
@@ -119,7 +119,7 @@
 }
 
 .quote-container {
-    height: 50vh;
+    height: 60vh;
     background-color: #e5e7eb;
 
     display: flex;
@@ -133,14 +133,19 @@
     display: flex;
     flex-direction: column;
 }
-.author {
-    padding: 8px;
-    align-self: flex-end;
-}
 
-.quote p{
-    width: 900px;
-    font-size: 36px;
-    color: #1F2937;
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 32px;
     font-weight: 900;
+    font-size: 18px;
+}
+.quote .text, .quote p{
+    width: 960px;
+    color: #1F2937;
+}
+.quote .text {
+    font-style: italic;
+    font-size: 36px;
 }
