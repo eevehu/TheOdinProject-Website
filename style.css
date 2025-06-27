@@ -139,7 +139,7 @@
     justify-content: flex-end;
     padding: 32px;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 22px;
 }
 .quote .text, .quote p{
     width: 960px;
@@ -148,4 +148,37 @@
 .quote .text {
     font-style: italic;
     font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.call-to-action-container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container {
+    height: 15vh;
+    width: 60vw;
+
+    border-radius: 16px;
+    background-color: #3882F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    padding-left: 0px;
+}
+
+.header-text p{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.text-container .sign-up {
+    padding-left: 16px;
 }
